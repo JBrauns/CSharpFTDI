@@ -1,0 +1,102 @@
+Microsoft (R) COFF/PE Dumper Version 12.00.40629.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file ftd2xx.dll
+
+File Type: DLL
+
+  Section contains the following exports for FTD2XX.dll
+
+    00000000 characteristics
+    44742B4B time date stamp Wed May 24 11:45:47 2006
+        0.00 version
+           1 ordinal base
+          76 number of functions
+          75 number of names
+
+    ordinal hint RVA      name
+
+          2    0 000015D0 FT_Close
+         11    1 000018A0 FT_ClrDtr
+         13    2 00001900 FT_ClrRts
+         70    3 00003C90 FT_CreateDeviceInfoList
+         69    4 00002350 FT_CyclePort
+         37    5 00003570 FT_EE_Program
+         67    6 00003B30 FT_EE_ProgramEx
+         38    7 00001C80 FT_EE_Read
+         68    8 00001E10 FT_EE_ReadEx
+         39    9 00001F20 FT_EE_UARead
+         40    A 00001E50 FT_EE_UASize
+         41    B 00003B70 FT_EE_UAWrite
+         34    C 00001C40 FT_EraseEE
+         32    D 000020A0 FT_GetBitMode
+         61    E 00002140 FT_GetDeviceInfo
+         72    F 00002DC0 FT_GetDeviceInfoDetail
+         71   10 00002D60 FT_GetDeviceInfoList
+         75   11 00002E70 FT_GetDriverVersion
+         20   12 00001A90 FT_GetEventStatus
+         30   13 00002030 FT_GetLatencyTimer
+         76   14 00002EA0 FT_GetLibraryVersion
+         14   15 00001930 FT_GetModemStatus
+         18   16 00001A20 FT_GetQueueStatus
+         21   17 00001AC0 FT_GetStatus
+          5   18 000016E0 FT_IoCtl
+         28   19 00003300 FT_ListDevices
+          1   1A 00002EE0 FT_Open
+         27   1B 00003120 FT_OpenEx
+         16   1C 000019B0 FT_Purge
+          3   1D 00001620 FT_Read
+         35   1E 00001BD0 FT_ReadEE
+          6   1F 00001750 FT_ResetDevice
+         66   20 00002320 FT_ResetPort
+         64   21 000022C0 FT_RestartInTask
+          7   22 00001780 FT_SetBaudRate
+         31   23 00002060 FT_SetBitMode
+         23   24 00001B40 FT_SetBreakOff
+         22   25 00001B10 FT_SetBreakOn
+         15   26 00001960 FT_SetChars
+          8   27 000017F0 FT_SetDataCharacteristics
+         73   28 00002110 FT_SetDeadmanTimeout
+         26   29 000017C0 FT_SetDivisor
+         10   2A 00001870 FT_SetDtr
+         19   2B 00001A50 FT_SetEventNotification
+          9   2C 00001830 FT_SetFlowControl
+         29   2D 00002000 FT_SetLatencyTimer
+         65   2E 000022F0 FT_SetResetPipeRetryCount
+         12   2F 000018D0 FT_SetRts
+         17   30 000019E0 FT_SetTimeouts
+         33   31 000020D0 FT_SetUSBParameters
+         24   32 00001B70 FT_SetWaitMask
+         63   33 00002290 FT_StopInTask
+         62   34 000028B0 FT_W32_CancelIo
+         47   35 000028D0 FT_W32_ClearCommBreak
+         48   36 00002900 FT_W32_ClearCommError
+         43   37 000027A0 FT_W32_CloseHandle
+         42   38 00002550 FT_W32_CreateFile
+         49   39 00002960 FT_W32_EscapeCommFunction
+         50   3A 00002AA0 FT_W32_GetCommModemStatus
+         51   3B 00002AD0 FT_W32_GetCommState
+         52   3C 00002B30 FT_W32_GetCommTimeouts
+         53   3D 00002B60 FT_W32_GetLastError
+         46   3E 00002870 FT_W32_GetOverlappedResult
+         54   3F 00002B70 FT_W32_PurgeComm
+         44   40 000027F0 FT_W32_ReadFile
+         55   41 00002BC0 FT_W32_SetCommBreak
+         56   42 00002BF0 FT_W32_SetCommMask
+         57   43 00002C20 FT_W32_SetCommState
+         58   44 00002C70 FT_W32_SetCommTimeouts
+         59   45 00002CC0 FT_W32_SetupComm
+         60   46 00002CE0 FT_W32_WaitCommEvent
+         45   47 00002830 FT_W32_WriteFile
+         25   48 00001BA0 FT_WaitOnMask
+          4   49 00001680 FT_Write
+         36   4A 00001C00 FT_WriteEE
+
+  Summary
+
+        4000 .data
+        5000 .rdata
+        2000 .reloc
+        1000 .rsrc
+       20000 .text
