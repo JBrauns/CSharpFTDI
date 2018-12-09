@@ -14,13 +14,13 @@ namespace CSharpFTDI
             FtdStatus status;
 
             ulong infoNodeCount = 0;
-            Ftd2Interop.FT_CreateDeviceInfoList(ref infoNodeCount);
+            Ftd2.FT_CreateDeviceInfoList(ref infoNodeCount);
             if (infoNodeCount > 0)
             {
                 Console.WriteLine("Number of connected devices is {0:D}", infoNodeCount);
 
                 FtdDeviceListInfoNode[] infoNodes = new FtdDeviceListInfoNode[infoNodeCount];
-                status = Ftd2Interop.FT_GetDeviceInfoList(infoNodes, ref infoNodeCount);
+                status = Ftd2.FT_GetDeviceInfoList(infoNodes, ref infoNodeCount);
 
                 if (status == FtdStatus.FtdOK)
                 {
